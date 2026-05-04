@@ -1,4 +1,10 @@
-let lista_nomes = ["AAAA", "BBBB", "CCCC", "DDDD"]
+const textarea = document.getElementById("add-texto")
+const botaoadd = document.getElementById("botao-add")
+
+
+
+
+let lista_nomes = ["Kawan do js", "fabzerasiuuu", "Ûésley", "acerólâ", ]
 
 function renderizar(){
     for(let item of lista_nomes){
